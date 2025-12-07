@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - family-names: "Hassan"
+    given-names: "Abdirahman"
+title: "UGRESS Robot Simulation - Autonomous Weed Elimination System"
+version: 1.0.0
+date-released: 2024-12-06
+url: "https://github.com/YOUR_USERNAME/ugress_thesis_simulation"
+repository-code: "https://github.com/YOUR_USERNAME/ugress_thesis_simulation"
+keywords:
+  - robotics
+  - ROS
+  - Gazebo
+  - agriculture
+  - autonomous systems
+  - weed elimination
+  - differential drive
+  - thesis
+license: MIT

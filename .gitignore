@@ -1,0 +1,30 @@
+# ROS
+build/
+devel/
+*.pyc
+__pycache__/
+
+# Gazebo
+*.log
+
+# Data (optionally include sample data only)
+# data/*.csv
+
+# Figures (add manually after generating)
+# figures/*.png
+
+# OS
+.DS_Store
+*~
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.backup
+*.bak
+*~

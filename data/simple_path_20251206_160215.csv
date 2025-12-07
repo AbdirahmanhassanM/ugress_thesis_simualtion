@@ -1,0 +1,10 @@
+Segment,Action,Duration,Status
+1,Forward 3m,10.00,Success
+2,Turn 90°,3.14,Success
+3,Forward 0.5m,1.67,Success
+4,Turn 90°,3.14,Success
+5,Forward 3m,10.00,Success
+6,Turn 90°,3.14,Success
+7,Forward 0.5m,1.67,Success
+8,Turn 90°,3.14,Success
+9,Forward 3m,10.00,Success

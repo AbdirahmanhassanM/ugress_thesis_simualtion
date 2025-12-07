@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- Launch Gazebo with empty world -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <!-- Load robot description to parameter server -->
+    <param name="robot_description" textfile="$(find ugress_sim)/urdf/ugress.urdf"/>
+
+    <!-- Spawn robot in Gazebo -->
+    <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model" 
+          args="-urdf -param robot_description -model ugress -x 0 -y 0 -z 0.2" 
+          output="screen"/>
+
+</launch>
