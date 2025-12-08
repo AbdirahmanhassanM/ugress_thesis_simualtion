@@ -14,7 +14,7 @@
 
     <!-- Spawn robot in Gazebo -->
     <node name="spawn_robot" pkg="gazebo_ros" type="spawn_model" 
-          args="-urdf -param robot_description -model ugress -x 0 -y 0 -z 0.2" 
+          args="-urdf -param robot_description -model ugress -x 0 -y 0 -z 0.15 -R 0 -P 0 -Y 0" 
           output="screen"/>
 
 </launch>
