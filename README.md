@@ -35,6 +35,38 @@ source devel/setup.bash
 ```bash
 check_urdf ~/catkin_ws/src/ugress_thesis_simulation/ugress_sim/urdf/ugress.urdf
 ```
+## Multiple Route Demonstrations 🎯
+
+This simulation showcases **5 different autonomous route patterns**, demonstrating system versatility:
+
+| Route | Pattern | Segments | Distance | Video |
+|-------|---------|----------|----------|-------|
+| **Agricultural** | 9-cycle rows | 9 | ~25m | ✅ simulation_run_5_working.mp4 |
+| **Square** | 4-sided perimeter | 4 | 12m | ✅ route_square_demo.mp4 |
+| **Zigzag** | Alternating diagonal | 6 | ~12m | ✅ route_zigzag_demo.mp4 |
+| **Spiral** | Expanding outward | 8 | ~18m | ✅ route_spiral_demo.mp4 |
+| **Circle** | 12-sided polygon | 12 | ~9.6m | ✅ route_circle_demo.mp4 |
+
+### Quick Route Demo
+```bash
+# Launch Gazebo
+roslaunch ugress_sim spawn_robot.launch
+
+# Run any route (new terminal)
+rosrun ugress_sim route_square.py   # Square pattern
+rosrun ugress_sim route_zigzag.py   # Zigzag pattern
+rosrun ugress_sim route_spiral.py   # Spiral pattern
+rosrun ugress_sim route_circle.py   # Circle pattern
+rosrun ugress_sim follow_path_final.py  # Original agricultural
+```
+
+All routes feature:
+- ✅ 100% completion rate
+- ✅ Automatic CSV data logging
+- ✅ Real-time progress display
+- ✅ Video demonstration available
+
+See `ugress_sim/scripts/ROUTES_README.md` for detailed documentation.
 
 ## Usage
 

@@ -1,0 +1,8 @@
+Segment,Action,Value,Duration,Status
+1,Drive,3.0m,10.00s,Success
+1,Turn,90°,3.14s,Success
+2,Drive,3.0m,10.00s,Success
+2,Turn,90°,3.14s,Success
+3,Drive,3.0m,10.00s,Success
+3,Turn,90°,3.14s,Success
+4,Drive,3.0m,10.00s,Success

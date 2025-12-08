@@ -53,6 +53,69 @@ This directory contains screen recordings of the Gazebo simulation runs.
 
 ---
 
-**Total Videos**: 6  
-**Status**: ✅ Complete and validated  
-**Last Updated**: December 7, 2024
+## Route Demonstration Videos
+
+### Agricultural Pattern (Original)
+- **simulation_run_5_working.mp4** - Complete 9-cycle agricultural row pattern
+- **simulation_run_6_final.mp4** - Final thesis validation run
+
+### Geometric Patterns
+
+#### route_square_demo.mp4
+- **Pattern**: 4-sided square perimeter
+- **Distance**: 12 meters (4 sides × 3m)
+- **Turns**: 90° at each corner
+- **Purpose**: Perimeter coverage demonstration
+
+#### route_zigzag_demo.mp4
+- **Pattern**: Alternating diagonal movements
+- **Distance**: ~12 meters
+- **Turns**: Alternating ±45° and ±90°
+- **Purpose**: Angled approach coverage
+
+#### route_spiral_demo.mp4
+- **Pattern**: Expanding outward spiral
+- **Distance**: ~18 meters (0.5m to 4.0m per segment)
+- **Turns**: Continuous 90° rotation
+- **Purpose**: Search and expanding coverage
+
+#### route_circle_demo.mp4
+- **Pattern**: Circular approximation (12-segment polygon)
+- **Distance**: ~9.6 meters (12 × 0.8m)
+- **Turns**: 30° continuous rotation
+- **Purpose**: Circular coverage around point
+
+---
+
+## Complete Video Portfolio
+
+**Total Videos**: 9 demonstrations  
+**Total Patterns**: 5 unique routes  
+**Coverage Types**: Agricultural, perimeter, diagonal, spiral, circular  
+
+### Thesis Use
+
+**Primary Videos:**
+- simulation_run_5_working.mp4 (Chapter 8, main demonstration)
+- simulation_run_6_final.mp4 (validation)
+
+**Supplementary Videos:**
+- route_spiral_demo.mp4 (flexibility demonstration)
+- route_circle_demo.mp4 (alternative pattern)
+- route_zigzag_demo.mp4 (complex turning)
+
+### Performance Demonstrated
+
+All videos show:
+- ✅ 100% path completion
+- ✅ Smooth transitions
+- ✅ Accurate turning (30°, 45°, 90°)
+- ✅ Stable control throughout
+- ✅ Consistent speed
+- ✅ Clean stop-start behavior
+
+---
+
+**Status**: ✅ Complete video portfolio for thesis  
+**Updated**: December 8, 2024  
+**Total Size**: Check individual files for sizes
