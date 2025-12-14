@@ -3,7 +3,7 @@
 ## Project: UGRESS - Autonomous Agricultural Robot Simulation
 
 **Status**: 🎉 **COMPLETE AND VALIDATED** 🎉  
-**Date**: December 8, 2024  
+**Date**: December 8, 2025  
 **Success Rate**: 100% across all patterns
 
 ---
@@ -107,8 +107,6 @@ A complete Gazebo simulation of a differential drive agricultural robot with **5
 - ✅ CHANGELOG.md (version history)
 - ✅ ROUTES_README.md (route documentation)
 - ✅ SETUP_GUIDE.md (installation)
-- ✅ SIMULATION_RESULTS.md (analysis)
-- ✅ THESIS_CHAPTER_8.md (thesis text)
 - ✅ MEDIA_INVENTORY.md (media catalog)
 - ✅ This FINAL_SUMMARY.md
 
@@ -120,12 +118,6 @@ A complete Gazebo simulation of a differential drive agricultural robot with **5
 
 ## Thesis Deliverables
 
-### Chapter 8: Simulation Validation
-
-**Table 8.1**: Performance metrics from agricultural pattern  
-**Figure 8.1**: Robot in Gazebo environment  
-**Figure 8.2**: Path execution demonstration  
-**Video Supplement**: simulation_run_5_working.mp4  
 
 ### Additional Evidence
 
@@ -207,9 +199,9 @@ This project successfully demonstrates:
 ## Contact & Links
 
 **Repository**: https://github.com/AbdirahmanhassanM/ugress_thesis_simualtion  
-**Author**: Abdirahman Hassan  
-**Institution**: Your University  
-**Date**: December 2024  
+**Author**: Abdirahman Hassan Mahammed
+**Institution**: Norwegian University of Life Sciences (NMBU)  
+**Date**: December 2025  
 
 ---
 
