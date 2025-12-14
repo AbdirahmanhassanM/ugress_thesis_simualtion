@@ -29,13 +29,11 @@ This directory contains screen recordings of the Gazebo simulation runs.
 ### simulation_run_6_final.mp4
 - **Description**: Final validated version
 - **Content**: Complete system demonstration for thesis
-- **Status**: ✅ Thesis-ready
 
 ## Primary Videos for Thesis
 
 **Use these for thesis submission:**
 - **simulation_run_5_working.mp4**: Primary demonstration video
-- **simulation_run_6_final.mp4**: Final validation run
 
 ## Robot Configuration (Working Version)
 
@@ -117,5 +115,5 @@ All videos show:
 ---
 
 **Status**: ✅ Complete video portfolio for thesis  
-**Updated**: December 8, 2024  
+**Updated**: December 8, 2025  
 **Total Size**: Check individual files for sizes

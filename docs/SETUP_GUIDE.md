@@ -54,7 +54,7 @@ echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 ### 4. Clone and Build Repository
 ```bash
 cd ~/catkin_ws/src
-git clone https://github.com/YOUR_USERNAME/ugress_thesis_simulation.git
+git clone https://github.com/AbdirahmanhassanM/ugress_thesis_simualtion.git
 cd ~/catkin_ws
 catkin_make
 source devel/setup.bash

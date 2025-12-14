@@ -169,8 +169,7 @@ Sources: All `route_*.csv` files
 - Validates multiple operational modes
 - Proves reliable control across patterns
 
-### Figure 8.X Data
-CSV files provide:
+### CSV files provide:
 - Time series data for plots
 - Distance covered metrics
 - Turn execution statistics

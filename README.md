@@ -98,38 +98,75 @@ rostopic pub /cmd_vel geometry_msgs/Twist "angular:
 ## Repository Structure
 ```
 ugress_thesis_simulation/
-├── README.md                          # This file
+├── README.md                          # Main documentation
 ├── LICENSE                            # MIT License
 ├── CITATION.cff                       # Citation information
+├── CHANGELOG.md                       # Version history
+├── FINAL_SUMMARY.md                   # Complete project summary
+├── MEDIA_INVENTORY.md                 # Media catalog
+│
 ├── ugress_sim/                        # ROS package
-│   ├── CMakeLists.txt
-│   ├── package.xml
+│   ├── CMakeLists.txt                 # Build configuration
+│   ├── package.xml                    # Package metadata
+│   │
 │   ├── launch/
-│   │   └── spawn_robot.launch        # Main launch file
+│   │   └── spawn_robot.launch         # Main launch file
+│   │
 │   ├── urdf/
-│   │   └── ugress.urdf               # Robot model
+│   │   └── ugress.urdf                # 4-wheel robot model
+│   │
 │   ├── scripts/
-│   │   ├── follow_path.py            # Odometry-based path follower
-│   │   └── follow_path_simple.py     # Time-based path follower
-│   └── worlds/                        # Gazebo world files (if any)
+│   │   ├── follow_path_final.py       # Agricultural pattern (9-cycle)
+│   │   ├── route_square.py            # Square pattern
+│   │   ├── route_zigzag.py            # Zigzag pattern
+│   │   ├── route_spiral.py            # Spiral pattern
+│   │   ├── route_circle.py            # Circle pattern
+│   │   ├── select_route.py            # Route selector utility
+│   │   └── ROUTES_README.md           # Route documentation
+│   │
+│   └── worlds/
+│       └── (empty - uses default world)
+│
 ├── docs/
-│   ├── SETUP_GUIDE.md                # Detailed setup instructions
-│   ├── SIMULATION_RESULTS.md         # Results and analysis
-│   ├── THESIS_CHAPTER_8.md           # Thesis chapter text
-│   └── API_REFERENCE.md              # Code documentation
+│   ├── SETUP_GUIDE.md                 # Installation instructions
+│   ├
+│   ├
+│   └── API_REFERENCE.md               # Code documentation
+│
 ├── data/
-│   ├── simple_path_20241206_*.csv    # Raw simulation data
-│   └── README.md                      # Data description
+│   ├── simulation_run_*.csv           # Agricultural pattern data
+│   ├── route_square_*.csv             # Square pattern data
+│   ├── route_zigzag_*.csv             # Zigzag pattern data
+│   ├── route_spiral_*.csv             # Spiral pattern data
+│   ├── route_circle_*.csv             # Circle pattern data
+│   └── README.md                      # Data documentation
+│
 ├── scripts/
-│   ├── analyze_results.py            # Data analysis script
-│   └── run_trials.sh                 # Automated testing script
+│   ├── analyze_results.py             # Data analysis script
+│   └── run_trials.sh                  # Automated testing script
+│
 ├── results/
-│   ├── TABLE_8.1.txt                 # Performance metrics table
-│   └── performance_summary.txt       # Analysis summary
+│   ├── TABLE_8.1.txt                  # Performance metrics table
+│   └── performance_summary.txt        # Analysis summary
+│
+├── videos/
+│   ├── simulation_run_1.mp4           # Development videos
+│   ├── simulation_run_2.mp4
+│   ├── simulation_run_3.mp4
+│   ├── simulation_run_4_working.mp4   # Working 4-wheel demo
+│   ├── simulation_run_5_working.mp4   # 9-cycle agricultural
+│   ├── simulation_run_6_final.mp4     # Final validation
+│   ├── route_square_demo.mp4          # Square pattern demo
+│   ├── route_zigzag_demo.mp4          # Zigzag pattern demo
+│   ├── route_spiral_demo.mp4          # Spiral pattern demo
+│   ├── route_circle_demo.mp4          # Circle pattern demo
+│   └── README.md                      # Video descriptions
+│
 └── figures/
-    ├── simulation_environment.png    # Screenshots
-    ├── robot_model.png
-    └── path_visualization.png
+    ├── fig_8_1_simulation_environment.png
+    ├── fig_8_2_simulation_view.png
+    └── README.md                      # Figure descriptions
+```
 ```
 
 ## Robot Specifications
@@ -196,7 +233,7 @@ This is a thesis project repository. For questions or suggestions, please open a
 If you use this work in your research, please cite:
 ```bibtex
 @mastersthesis{hassan2024ugress,
-  author  = {Hassan, Abdirahman},
+  author  = {Mahammed, Abdirahman Hassan},
   title   = {Design and Implementation of an Autonomous Ground-based Weed Elimination System},
   school  = {NMBU},
   year    = {2025},
@@ -212,7 +249,7 @@ MIT License - see LICENSE file for details
 
 **Abdirahman Hassan**
 - Thesis Project: Autonomous Weed Elimination System
-- Institution: Your University
+- Institution: Norwegian University of Life Sciences (NMBU)
 - Year: 2025
 
 ## Acknowledgments
