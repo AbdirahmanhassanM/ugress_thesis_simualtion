@@ -266,4 +266,4 @@ For questions regarding this simulation:
 
 ---
 
-**Status**: ✅ Thesis Chapter 8 Complete | 🤖 Simulation Validated | 📊 Data Collected
+**Status**: 🤖 Simulation Validated | 📊 Data Collected
